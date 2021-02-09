@@ -23,7 +23,7 @@ email: astears@uwyo.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Professional website for Alice Stears
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://astearsresearch.com
+url: # the base hostname & protocol for your site, e.g. http://astearsresearch.com
 twitter_username: alice_stears
 github_username:  aestears
 
