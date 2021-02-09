@@ -1,8 +1,9 @@
 ---
 layout: home
-Title: Alice Stears Research
+Title: Home
+author_profile: true
 header:
-    image: aestears.github.io/docs/images/IMG_3476.jpg
+    image: /images/IMG_3476.jpg
     caption: "Photo credit: Alice Stears"
 ---
 This is the home page of my website!      
