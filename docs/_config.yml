@@ -103,13 +103,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "astears@uwyo.edu"
+      #url: "astears@uwyo.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/alice_stears"
+      #url: "https://twitter.com/alice_stears"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/aestears"
+      #url: "https://github.com/aestears"
  
   # - label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
@@ -124,13 +124,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/alice_stears"
+       #url: "https://twitter.com/alice_stears"
    # - label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/aestears"
+       #url: "https://github.com/aestears"
     #- label: "GitLab"
      # icon: "fab fa-fw fa-gitlab"
       # url:
