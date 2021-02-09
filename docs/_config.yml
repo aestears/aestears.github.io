@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Alice Stears Professional Website
+title: Alice Stears
 email: astears@uwyo.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Research website for Alice Stears
+  Professional website for Alice Stears
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://astearsresearch.com
 twitter_username: alice_stears
