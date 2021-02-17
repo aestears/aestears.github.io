@@ -17,12 +17,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Alice Stears Research"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+subtitle                 : "Plant population and community Ecology"# site tagline that appears below site title in masthead
+name                     : "Alice Stears"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://astearsresearch.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -53,9 +53,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   :  true #, false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : lunr (default)# , algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -97,19 +97,19 @@ analytics:
 author:
   name             : "Alice Stears"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "PhD Candidate at the University of Wyoming"
   location         : "Laramie, WY"
-  email            :
+  email            : "astears@uwyo.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: "astears@uwyo.edu"
+      url: "astears@uwyo.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      #url: "https://twitter.com/alice_stears"
+      url: "https://twitter.com/alice_stears"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: "https://github.com/aestears"
+      url: "https://github.com/aestears"
  
   # - label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
