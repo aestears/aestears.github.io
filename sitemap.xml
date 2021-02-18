@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://aestears.github.io/about/</loc>
+    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aestears.github.io/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -90,11 +95,6 @@
   <url>
     <loc>https://aestears.github.io/blog/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aestears.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
