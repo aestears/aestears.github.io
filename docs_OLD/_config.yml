@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Alice Stears Research"
 title_separator          : "-"
-subtitle                 : "Plant population and community Ecology"# site tagline that appears below site title in masthead
+subtitle                 : "Plant population and community ecology"# site tagline that appears below site title in masthead
 name                     : "Alice Stears"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://astearsresearch.com"
