@@ -1,4 +1,10 @@
 [{
+    "title": "plantTracker",
+    "date": "",
+    "description": "",
+    "body": "plantTracker is an R package to transform fine-scale maps of plant occurrence into demographic data that can be used for further analysis. You can find a lot more information about plantTracker here\n",
+    "ref": "/package/"
+  },{
     "title": "Research",
     "date": "",
     "description": "",
