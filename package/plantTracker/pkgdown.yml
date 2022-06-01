@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   Suggested_plantTracker_Workflow: Suggested_plantTracker_Workflow.html
   Using_the_plantTracker_trackSpp_function: Using_the_plantTracker_trackSpp_function.html
-last_built: 2022-03-20T04:26Z
+last_built: 2022-06-01T21:49Z
 urls:
   reference: http://www.astearsresearch.com/package/plantTracker/reference
   article: http://www.astearsresearch.com/package/plantTracker/articles
