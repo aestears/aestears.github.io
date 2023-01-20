@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/404.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/404.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/LICENSE-text.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/LICENSE.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/LICENSE.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/articles/Suggested_plantTracker_Workflow.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/articles/Suggested_plantTracker_Workflow.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/articles/Using_the_plantTracker_trackSpp_function.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/articles/Using_the_plantTracker_trackSpp_function.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/articles/index.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/articles/index.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/authors.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/authors.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/index.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/index.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/aggregateByGenet.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/aggregateByGenet.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/assign.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/assign.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/checkDat.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/checkDat.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/drawQuadMap.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/drawQuadMap.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/getBasalAreas.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/getBasalAreas.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/getLambda.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/getLambda.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/getNeighbors.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/getNeighbors.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/getRecruits.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/getRecruits.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/grasslandData.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/grasslandData.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/grasslandInventory.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/grasslandInventory.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/groupByGenet.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/groupByGenet.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/index.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/index.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/plantTracker-package.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/plantTracker-package.html</loc>
   </url>
   <url>
-    <loc>http://www.astearsresearch.com/plantTracker/reference/trackSpp.html</loc>
+    <loc>http://www.astearsresearch.com/package/plantTracker/reference/trackSpp.html</loc>
   </url>
 </urlset>

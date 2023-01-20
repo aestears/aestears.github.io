@@ -4,7 +4,7 @@ each distinct individual in a mapped dataset. It is intended for use on
 a dataset that has been returned by the trackSpp function, but
 will work with any sf data.frame where each individual row represents a
 distinct individual (genet) in a unique year."><title>Calculates local neighborhood density around each individual in a
-mapped dataset — getNeighbors • plantTracker</title><script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="../deps/bootstrap-5.1.0/bootstrap.min.css" rel="stylesheet"><script src="../deps/bootstrap-5.1.0/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous"><!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Calculates local neighborhood density around each individual in a
+mapped dataset — getNeighbors • plantTracker</title><script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet"><script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous"><!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Calculates local neighborhood density around each individual in a
 mapped dataset — getNeighbors"><meta property="og:description" content="This function calculates the density of individuals around
 each distinct individual in a mapped dataset. It is intended for use on
 a dataset that has been returned by the trackSpp function, but
@@ -20,7 +20,7 @@ distinct individual (genet) in a unique year."><!-- mathjax --><script src="http
     
     <a class="navbar-brand me-2" href="../index.html">plantTracker</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.0.0000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@ distinct individual (genet) in a unique year."><!-- mathjax --><script src="http
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off"></form>
 
       <ul class="navbar-nav"><li class="nav-item">
-  <a class="external-link nav-link" href="http://github.com/aestears/plantTracker/" aria-label="github">
+  <a class="external-link nav-link" href="https://github.com/aestears/plantTracker/" aria-label="github">
     <span class="fab fa fab fa-github fa-lg"></span>
      
   </a>
@@ -56,7 +56,7 @@ distinct individual (genet) in a unique year."><!-- mathjax --><script src="http
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="" class="logo" alt=""><h1>Calculates local neighborhood density around each individual in a
 mapped dataset</h1>
-      <small class="dont-index">Source: <a href="http://github.com/aestears/plantTracker/blob/HEAD/R/getNeighbors.R" class="external-link"><code>R/getNeighbors.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/aestears/plantTracker/blob/HEAD/R/getNeighbors.R" class="external-link"><code>R/getNeighbors.R</code></a></small>
       <div class="d-none name"><code>getNeighbors.Rd</code></div>
     </div>
 
@@ -70,20 +70,20 @@ distinct individual (genet) in a unique year.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">getNeighbors</span><span class="op">(</span>
-  <span class="va">dat</span>,
-  <span class="va">buff</span>,
-  <span class="va">method</span>,
-  compType <span class="op">=</span> <span class="st">"allSpp"</span>,
-  output <span class="op">=</span> <span class="st">"summed"</span>,
-  trackID <span class="op">=</span> <span class="st">"trackID"</span>,
-  species <span class="op">=</span> <span class="st">"Species"</span>,
-  quad <span class="op">=</span> <span class="st">"Quad"</span>,
-  year <span class="op">=</span> <span class="st">"Year"</span>,
-  site <span class="op">=</span> <span class="st">"Site"</span>,
-  geometry <span class="op">=</span> <span class="st">"geometry"</span>,
-  <span class="va">...</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">getNeighbors</span><span class="op">(</span></span>
+<span>  <span class="va">dat</span>,</span>
+<span>  <span class="va">buff</span>,</span>
+<span>  <span class="va">method</span>,</span>
+<span>  compType <span class="op">=</span> <span class="st">"allSpp"</span>,</span>
+<span>  output <span class="op">=</span> <span class="st">"summed"</span>,</span>
+<span>  trackID <span class="op">=</span> <span class="st">"trackID"</span>,</span>
+<span>  species <span class="op">=</span> <span class="st">"Species"</span>,</span>
+<span>  quad <span class="op">=</span> <span class="st">"Quad"</span>,</span>
+<span>  year <span class="op">=</span> <span class="st">"Year"</span>,</span>
+<span>  site <span class="op">=</span> <span class="st">"Site"</span>,</span>
+<span>  geometry <span class="op">=</span> <span class="st">"geometry"</span>,</span>
+<span>  <span class="va">...</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -97,6 +97,8 @@ species name (default name is "Species"), quadrat identifier (default name is
 "Quad"), year of data collection (default name is "Year"), genet identity
 (default name is "trackID"), and an s.f 'geometry' column that contains a
 polygon or multipolygon data type for each individual observation.</p></dd>
+
+
 <dt>buff</dt>
 <dd><p>A numeric value that is greater than or equal to zero. This
 indicates the distance (in the same units as the spatial data in 'dat')
@@ -105,6 +107,8 @@ OR buff can be a data.frame with the columns "Species" and "buff". This
 data.frame must have a row for each unique species present in 'dat', with
 species name as a character string in the "Species" column, and a numeric
 value in the 'buff' column you'd like to use for that species.</p></dd>
+
+
 <dt>method</dt>
 <dd><p>A character string, either 'count' or 'area'. This argument
 determines which method is used to calculate local neighborhood density.
@@ -116,6 +120,8 @@ as points, it is best to use 'method' = 'count'. If the data was mapped as
 polygons that are representative of individual basal area, using
 'method' = 'area' is likely a more accurate representation of the crowding
 the focal individual is experiencing.</p></dd>
+
+
 <dt>compType</dt>
 <dd><p>A character string, either 'allSpp' or 'oneSpp'.
 If compType = 'allSpp', then local neighborhood density is calculated
@@ -124,6 +130,8 @@ species (interspecific competition). If compType = 'oneSpp', then local
 neighborhood density is calculated considering only individuals in the buffer
 area that are the same species as the focal individual (intraspecific
 competition).</p></dd>
+
+
 <dt>output</dt>
 <dd><p>A character string, either 'summed' or 'bySpecies'. The default
 is 'summed'. This argument is only important to consider if you are using
@@ -139,50 +147,69 @@ individual. However, if output = 'bySpecies', the row for this focal
 individual in the output data.frame will contain a named list in the
 'neighbors_count' column that looks like the one below. If 'method' = 'area'
 and 'output' = 'bySpecies', a similar list will be returned, but will be in
-the 'neighbors_area' column and will contain areas rather than counts.</p><div class="sourceCode r"><pre><code><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="st">"Species A "</span><span class="op">=</span> <span class="fl">5</span>, <span class="st">"Species B"</span> <span class="op">=</span> <span class="fl">3</span>, <span class="st">"Species C"</span> <span class="op">=</span> <span class="fl">7</span><span class="op">)</span></code></pre><p></p></div><div class="sourceCode"><pre><code><span class="co">## $`Species A `</span>
-<span class="co">## [1] 5</span>
-<span class="co">## </span>
-<span class="co">## $`Species B`</span>
-<span class="co">## [1] 3</span>
-<span class="co">## </span>
-<span class="co">## $`Species C`</span>
-<span class="co">## [1] 7</span></code></pre></div></dd>
+the 'neighbors_area' column and will contain areas rather than counts.</p>
+<p></p><div class="sourceCode r"><pre><code><span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="st">"Species A "</span><span class="op">=</span> <span class="fl">5</span>, <span class="st">"Species B"</span> <span class="op">=</span> <span class="fl">3</span>, <span class="st">"Species C"</span> <span class="op">=</span> <span class="fl">7</span><span class="op">)</span></span>
+<span><span class="co">#&gt; $`Species A `</span></span>
+<span><span class="co">#&gt; [1] 5</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $`Species B`</span></span>
+<span><span class="co">#&gt; [1] 3</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $`Species C`</span></span>
+<span><span class="co">#&gt; [1] 7</span></span></code></pre><p></p></div></dd>
+
+
 <dt>trackID</dt>
 <dd><p>An optional character string argument. Indicates the name of
 the column in 'dat' that contains a value that uniquely identifies each
 individual/genet. It is unnecessary to include a value for this argument if
 the column name is 'trackID' (the default value is 'trackID').</p></dd>
+
+
 <dt>species</dt>
 <dd><p>An optional character string argument. Indicates
 the name of the column in 'dat' that contains species name data. It is
 unnecessary to include a value for this argument if the column name is
 "Species" (default value is 'Species').</p></dd>
+
+
 <dt>quad</dt>
 <dd><p>An optional character string argument. Indicates
 the name of the column in 'dat' that contains quadrat name data. It is
 unnecessary to include a value for this argument if the column name is
 "Quad" (default is 'Quad').</p></dd>
+
+
 <dt>year</dt>
 <dd><p>An optional character string argument. Indicates
 the name of the column in 'dat' that contains data for year of sampling. It
 is unnecessary to include a value for this argument if the column name is
 "Year" (default is 'Year').</p></dd>
+
+
 <dt>site</dt>
 <dd><p>An optional character string argument. Indicates
 the name of the column in 'dat' that contains site name data. It is
 unnecessary to include a value for this argument if the column name is
 "Site" (default value is 'Site').</p></dd>
+
+
 <dt>geometry</dt>
 <dd><p>An optional character string argument. Indicates
 the name of the column in 'dat' that contains sf geometry data. It is
 unnecessary to include a value for this argument if the column name is
 "geometry" (default is 'geometry').</p></dd>
+
+
 <dt>...</dt>
 <dd><p>Other arguments passed on to methods. Not currently used.</p></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>This function returns a data.frame with the same number of rows as
+    
+
+<p>This function returns a data.frame with the same number of rows as
 'dat' and all of the same columns, but with an additional column or columns.
 If method = 'count', then a column called "neighbors_count" is added, which
 contains a count of the number of individuals within the buffer area that is
@@ -214,36 +241,38 @@ that can be input directly into this function.</p></div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="va">dat</span> <span class="op">&lt;-</span> <span class="va">grasslandData</span><span class="op">[</span><span class="va">grasslandData</span><span class="op">$</span><span class="va">Site</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"AZ"</span><span class="op">)</span> <span class="op">&amp;</span></span>
-<span class="r-in"> <span class="va">grasslandData</span><span class="op">$</span><span class="va">Species</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Bouteloua rothrockii"</span>,</span>
-<span class="r-in"> <span class="st">"Calliandra eriophylla"</span><span class="op">)</span>,<span class="op">]</span></span>
-<span class="r-in"><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">dat</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">"speciesName"</span></span>
-<span class="r-in"><span class="va">inv</span> <span class="op">&lt;-</span> <span class="va">grasslandInventory</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">dat</span><span class="op">$</span><span class="va">Quad</span><span class="op">)</span><span class="op">]</span></span>
-<span class="r-in"><span class="va">outDat</span> <span class="op">&lt;-</span> <span class="fu"><a href="trackSpp.html">trackSpp</a></span><span class="op">(</span>dat <span class="op">=</span> <span class="va">dat</span>,</span>
-<span class="r-in"> inv <span class="op">=</span> <span class="va">inv</span>,</span>
-<span class="r-in"> dorm <span class="op">=</span> <span class="fl">1</span>,</span>
-<span class="r-in"> buff <span class="op">=</span> <span class="fl">.05</span>,</span>
-<span class="r-in"> buffGenet <span class="op">=</span> <span class="fl">0.005</span>,</span>
-<span class="r-in"> clonal <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="st">"Species"</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">dat</span><span class="op">$</span><span class="va">speciesName</span><span class="op">)</span>,</span>
-<span class="r-in"> <span class="st">"clonal"</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span>,</span>
-<span class="r-in"> species <span class="op">=</span> <span class="st">"speciesName"</span>,</span>
-<span class="r-in"> aggByGenet <span class="op">=</span> <span class="cn">TRUE</span></span>
-<span class="r-in"> <span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Site: AZ</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> -- Quadrat: SG2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> ---- Species: Bouteloua rothrockii; Calliandra eriophylla</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "Note: Individuals in year 1927 have a value of 'NA' in the 'survives_tplus1' and 'size_tplus1' columns because 1927 is the last year of sampling in this quadrat."</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> -- Quadrat: SG4</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> ---- Species: Bouteloua rothrockii; Calliandra eriophylla</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "Note: Individuals in year 1927 have a value of 'NA' in the 'survives_tplus1' and 'size_tplus1' columns because 1927 is the last year of sampling in this quadrat."</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "Note: The output data.frame from this function is shorter than your input data.frame because demographic data has been aggregated by genet. Because of this, some columns that were present in your input data.frame may no longer be present. If you don't want the output to be aggregated by genet, include the argument 'aggByGenet == FALSE' in your call to trackSpp()."</span>
-<span class="r-in"></span>
-<span class="r-in"> <span class="va">finalDat</span> <span class="op">&lt;-</span> <span class="fu">getNeighbors</span><span class="op">(</span>dat <span class="op">=</span> <span class="va">outDat</span>,</span>
-<span class="r-in"> buff <span class="op">=</span> <span class="fl">.15</span>,</span>
-<span class="r-in"> method <span class="op">=</span> <span class="st">'count'</span>,</span>
-<span class="r-in"> compType <span class="op">=</span> <span class="st">'oneSpp'</span>,</span>
-<span class="r-in"> species <span class="op">=</span> <span class="st">"speciesName"</span><span class="op">)</span></span>
-<span class="r-in"></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">dat</span> <span class="op">&lt;-</span> <span class="va">grasslandData</span><span class="op">[</span><span class="va">grasslandData</span><span class="op">$</span><span class="va">Site</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"AZ"</span><span class="op">)</span> <span class="op">&amp;</span></span></span>
+<span class="r-in"><span> <span class="va">grasslandData</span><span class="op">$</span><span class="va">Species</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Bouteloua rothrockii"</span>,</span></span>
+<span class="r-in"><span> <span class="st">"Calliandra eriophylla"</span><span class="op">)</span>,<span class="op">]</span></span></span>
+<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">dat</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">"speciesName"</span></span></span>
+<span class="r-in"><span><span class="va">inv</span> <span class="op">&lt;-</span> <span class="va">grasslandInventory</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">dat</span><span class="op">$</span><span class="va">Quad</span><span class="op">)</span><span class="op">]</span></span></span>
+<span class="r-in"><span><span class="va">outDat</span> <span class="op">&lt;-</span> <span class="fu"><a href="trackSpp.html">trackSpp</a></span><span class="op">(</span>dat <span class="op">=</span> <span class="va">dat</span>,</span></span>
+<span class="r-in"><span> inv <span class="op">=</span> <span class="va">inv</span>,</span></span>
+<span class="r-in"><span> dorm <span class="op">=</span> <span class="fl">1</span>,</span></span>
+<span class="r-in"><span> buff <span class="op">=</span> <span class="fl">.05</span>,</span></span>
+<span class="r-in"><span> buffGenet <span class="op">=</span> <span class="fl">0.005</span>,</span></span>
+<span class="r-in"><span> clonal <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="st">"Species"</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">dat</span><span class="op">$</span><span class="va">speciesName</span><span class="op">)</span>,</span></span>
+<span class="r-in"><span> <span class="st">"clonal"</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span>,</span></span>
+<span class="r-in"><span> species <span class="op">=</span> <span class="st">"speciesName"</span>,</span></span>
+<span class="r-in"><span> aggByGenet <span class="op">=</span> <span class="cn">TRUE</span></span></span>
+<span class="r-in"><span> <span class="op">)</span></span></span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> Site: AZ</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> -- Quadrat: SG2</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> ---- Species: Bouteloua rothrockii</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> ; Calliandra eriophylla</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> Note: Individuals in year 1927 have a value of 'NA' in the 'survives_tplus1' and 'size_tplus1' columns because 1927 is the last year of sampling in this quadrat.</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> -- Quadrat: SG4</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> ---- Species: Bouteloua rothrockii</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> ; Calliandra eriophylla</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> Note: Individuals in year 1927 have a value of 'NA' in the 'survives_tplus1' and 'size_tplus1' columns because 1927 is the last year of sampling in this quadrat.</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> Note: The output data.frame from this function is shorter than your input data.frame because demographic data has been aggregated by genet. Because of this, some columns that were present in your input data.frame may no longer be present. If you don't want the output to be aggregated by genet, include the argument 'aggByGenet == FALSE' in your call to trackSpp().</span>
+<span class="r-in"><span></span></span>
+<span class="r-in"><span> <span class="va">finalDat</span> <span class="op">&lt;-</span> <span class="fu">getNeighbors</span><span class="op">(</span>dat <span class="op">=</span> <span class="va">outDat</span>,</span></span>
+<span class="r-in"><span> buff <span class="op">=</span> <span class="fl">.15</span>,</span></span>
+<span class="r-in"><span> method <span class="op">=</span> <span class="st">'count'</span>,</span></span>
+<span class="r-in"><span> compType <span class="op">=</span> <span class="st">'oneSpp'</span>,</span></span>
+<span class="r-in"><span> species <span class="op">=</span> <span class="st">"speciesName"</span><span class="op">)</span></span></span>
+<span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
@@ -255,7 +284,7 @@ that can be input directly into this function.</p></div>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
     </footer></div>
