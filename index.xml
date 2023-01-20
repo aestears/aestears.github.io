@@ -6,7 +6,17 @@
     <description>Recent content on Alice Stears</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://aestears.github.io/about/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/about/</guid>
+      <description>I am currently a Postdoctoral research associate at the University of Wyoming as part of both the Weiss-Lehman lab group and the Modelscape collaborative. I recieved my PhD in Ecology from the University of Wyoming in the Program in Ecology and Evolution and the Botany Department, where I worked with Dr. Daniel Laughlin.
+I&amp;rsquo;m a plant ecologist excited about all sorts of questions, but am particularly interested in the impact of global change on the ecological processes that shape plant populations and communities.</description>
+    </item>
+    
     <item>
       <title>plantTracker</title>
       <link>https://aestears.github.io/package/</link>
@@ -22,8 +32,7 @@
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://aestears.github.io/research/</guid>
-      <description>I am broadly interested in understanding how environmental variation determines where and when plants exists. I am particularly curious about how species&amp;rsquo; traits mediate the impact of climate variation on plant growth, survival, and reproduction (i.e fitness). Are certain morphological and or physiological characteristics important for predicting plant fitness in every setting? Or do different traits drive fitness differently in habitats with different limiting resources?
-Trait-mediated demographic response to drought in the Colorado shortgrass steppe Read more about this project here, in our paper published in Ecology.</description>
+      <description>Trait-mediated demographic response to drought in the Colorado shortgrass steppe A major goal in ecology is to make generalizable predictions of organism responses to environmental variation based on their traits. However, straightforward relationships between traits and fitness are rare and likely vary with environmental context. Characterizing how traits mediate demographic responses to the environment may enhance predictions of organism responses to global change. In this project, we synthesized 15 years of demographic data and species-level traits in a shortgrass steppe to determine whether the effects of leaf and root traits on growth and survival depend on seasonal water availability.</description>
     </item>
     
     <item>
@@ -33,15 +42,6 @@ Trait-mediated demographic response to drought in the Colorado shortgrass steppe
       
       <guid>https://aestears.github.io/blog/buildingmessage/</guid>
       <description>I&amp;rsquo;m currently working on building this page, so apologies for the lack of content! Check back for a more complete version soon.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://aestears.github.io/about/</link>
-      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://aestears.github.io/about/</guid>
-      <description>I am currently a Postdoctoral research associate at the University of Wyoming as part of both the Weiss-Lehman lab group and the Modelscape collaborative. I also recieved my PhD in Ecology from the University of Wyoming in the Program in Ecology and the Botany Department, where I worked with Dr. Daniel Laughlin. I&amp;rsquo;m a plant ecologist excited about all sorts of questions, but am particularly interested in the impact of global change on the ecological processes that shape plant populations and communities.</description>
     </item>
     
     <item>
