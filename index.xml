@@ -13,8 +13,18 @@
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://aestears.github.io/about/</guid>
-      <description>I am currently a Postdoctoral research associate at the University of Wyoming as part of both the Weiss-Lehman lab group and the Modelscape collaborative. I recieved my PhD in Ecology from the University of Wyoming in the Program in Ecology and Evolution and the Botany Department, where I worked with Dr. Daniel Laughlin.
+      <description>I am currently a Postdoctoral research associate at the University of Wyoming as part of both the Weiss-Lehman lab group and the Modelscape consortium. I recieved my PhD in Ecology from the University of Wyoming in the Program in Ecology and Evolution and the Botany Department, where I worked with Dr. Daniel Laughlin.
 I&amp;rsquo;m a plant ecologist excited about all sorts of questions, but am particularly interested in the impact of global change on the ecological processes that shape plant populations and communities.</description>
+    </item>
+    
+    <item>
+      <title>plantTracker is published on CRAN!</title>
+      <link>https://aestears.github.io/blog/planttracker_cran/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/blog/planttracker_cran/</guid>
+      <description>I&amp;rsquo;m excited to share that plantTracker, an R package that I created as part of my PhD dissertation, is available to download from CRAN!
+plantTracker provides several user-friendly functions that extract growth, survival, and competition information from repeatedly-sampled, fine-scale maps of organism occurence. We created these functions specifically to get competition and demographic data from repeatedly-mapped quadrats of perennial plants, but are excited for folks to come up with all sorts of creative applications for these functions!</description>
     </item>
     
     <item>

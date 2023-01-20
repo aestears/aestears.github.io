@@ -16,5 +16,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>publications</title>
+      <link>https://aestears.github.io/tags/publications/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/tags/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://aestears.github.io/tags/r/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

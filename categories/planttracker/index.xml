@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Alice Stears</title>
-    <link>https://aestears.github.io/blog/</link>
-    <description>Recent content in Blog on Alice Stears</description>
+    <title>plantTracker on Alice Stears</title>
+    <link>https://aestears.github.io/categories/planttracker/</link>
+    <description>Recent content in plantTracker on Alice Stears</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/planttracker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>plantTracker is published on CRAN!</title>
       <link>https://aestears.github.io/blog/planttracker_cran/</link>
@@ -15,15 +15,6 @@
       <guid>https://aestears.github.io/blog/planttracker_cran/</guid>
       <description>I&amp;rsquo;m excited to share that plantTracker, an R package that I created as part of my PhD dissertation, is available to download from CRAN!
 plantTracker provides several user-friendly functions that extract growth, survival, and competition information from repeatedly-sampled, fine-scale maps of organism occurence. We created these functions specifically to get competition and demographic data from repeatedly-mapped quadrats of perennial plants, but are excited for folks to come up with all sorts of creative applications for these functions!</description>
-    </item>
-    
-    <item>
-      <title>Website in Progress</title>
-      <link>https://aestears.github.io/blog/buildingmessage/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://aestears.github.io/blog/buildingmessage/</guid>
-      <description>I&amp;rsquo;m currently working on building this page, so apologies for the lack of content! Check back for a more complete version soon.</description>
     </item>
     
   </channel>
