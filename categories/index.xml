@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Alice Stears </title>
-    <link>uild/categories/</link>
+    <link>https://aestears.github.io/categories/</link>
     <description>Recent content in Categories on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="uild/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>publications</title>
-      <link>uild/categories/publications/</link>
+      <link>https://aestears.github.io/categories/publications/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>uild/categories/publications/</guid>
+      <guid>https://aestears.github.io/categories/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>uild/categories/r/</link>
+      <link>https://aestears.github.io/categories/r/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>uild/categories/r/</guid>
+      <guid>https://aestears.github.io/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>uild/categories/software/</link>
+      <link>https://aestears.github.io/categories/software/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>uild/categories/software/</guid>
+      <guid>https://aestears.github.io/categories/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>workshop</title>
-      <link>uild/categories/workshop/</link>
+      <link>https://aestears.github.io/categories/workshop/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>uild/categories/workshop/</guid>
+      <guid>https://aestears.github.io/categories/workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meetup</title>
-      <link>uild/categories/meetup/</link>
+      <link>https://aestears.github.io/categories/meetup/</link>
       <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
       
-      <guid>uild/categories/meetup/</guid>
+      <guid>https://aestears.github.io/categories/meetup/</guid>
       <description></description>
     </item>
     
