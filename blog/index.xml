@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Blog That Works on Alice Stears </title>
-    <link>https://aestears.github.io/blog/</link>
+    <link>uild/blog/</link>
     <description>Recent content in A Blog That Works on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="uild/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>plantTracker is published on CRAN!</title>
-      <link>https://aestears.github.io/blog/planttracker-live/</link>
+      <link>uild/blog/planttracker-live/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://aestears.github.io/blog/planttracker-live/</guid>
+      <guid>uild/blog/planttracker-live/</guid>
       <description>It&amp;rsquo;s Here! I&amp;rsquo;m excited to share that plantTracker, an R package that I created as part of my PhD dissertation, is available to download from CRAN!
 plantTracker provides several user-friendly functions that extract growth, survival, and competition information from repeatedly-sampled, fine-scale maps of organism occurence. We created these functions specifically to get competition and demographic data from repeatedly-mapped quadrats of perennial plants, but are excited for folks to come up with all sorts of creative applications for these functions!</description>
     </item>
