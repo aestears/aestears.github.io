@@ -6,22 +6,31 @@
     <description>Recent content in Categories on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Theme Features</title>
-      <link>https://aestears.github.io/categories/theme-features/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <title>publications</title>
+      <link>https://aestears.github.io/categories/publications/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://aestears.github.io/categories/theme-features/</guid>
+      <guid>https://aestears.github.io/categories/publications/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>evergreen</title>
-      <link>https://aestears.github.io/categories/evergreen/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <title>R</title>
+      <link>https://aestears.github.io/categories/r/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://aestears.github.io/categories/evergreen/</guid>
+      <guid>https://aestears.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://aestears.github.io/categories/software/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/categories/software/</guid>
       <description></description>
     </item>
     
@@ -31,15 +40,6 @@
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://aestears.github.io/categories/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://aestears.github.io/categories/r/</link>
-      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://aestears.github.io/categories/r/</guid>
       <description></description>
     </item>
     
