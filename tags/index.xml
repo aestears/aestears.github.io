@@ -5,6 +5,16 @@
     <link>https://aestears.github.io/tags/</link>
     <description>Recent content in Tags on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://aestears.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo-site</title>
+      <link>https://aestears.github.io/tags/hugo-site/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/tags/hugo-site/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

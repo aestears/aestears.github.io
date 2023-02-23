@@ -41,10 +41,22 @@
     <loc>https://aestears.github.io/categories/collaboration/</loc>
     <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://aestears.github.io/categories/drought/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/project/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://aestears.github.io/categories/publications/</loc>
     <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aestears.github.io/categories/software/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/project/co-traits/</loc>
+    <lastmod>2023-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/categories/traits/</loc>
     <lastmod>2023-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://aestears.github.io/blog/overleaf_forcollab/</loc>
@@ -77,6 +89,21 @@
     <loc>https://aestears.github.io/talk/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
+    <loc>https://aestears.github.io/project/cobp/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/tags/hugo-site/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/categories/package/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/tags/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://aestears.github.io/categories/theme-features/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://aestears.github.io/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
@@ -84,14 +111,12 @@
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
     <loc>https://aestears.github.io/elements/</loc>
-    <lastmod>2019-02-18T12:27:33-06:00</lastmod>
+    <priority>0</priority>
   </url><url>
     <loc>https://aestears.github.io/about/</loc>
   </url><url>
     <loc>https://aestears.github.io/license/</loc>
   </url><url>
     <loc>https://aestears.github.io/series/</loc>
-  </url><url>
-    <loc>https://aestears.github.io/tags/</loc>
   </url>
 </urlset>
