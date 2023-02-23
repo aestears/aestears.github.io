@@ -6,7 +6,7 @@
     <description>Recent content on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>https://aestears.github.io/collection/day02/01-netlify/</link>
@@ -84,6 +84,16 @@ Clone GitHub repo usethis::create_from_github(&amp;quot;https://github.com/apres
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    
+    <item>
+      <title>Using Overleaf as a Scientific Collaborator</title>
+      <link>https://aestears.github.io/blog/overleaf_forcollab/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/blog/overleaf_forcollab/</guid>
+      <description>Overleaf 101 Overleaf is an online LaTeX editor that has a lot of great features including simultaneous editing by multiple authors, simple commenting and track changes, and excellent built-in version control. It is a bit different than Microsoft Word or Google Docs, but not by much! Here is a quick overview to help you figure out how (and why) to navigate and contribute to documents written on Overleaf.
+Overleaf is LaTeX editor that is hosted online.</description>
     </item>
     
     <item>
