@@ -6,7 +6,7 @@
     <description>Recent content on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>https://aestears.github.io/collection/day02/01-netlify/</link>
@@ -87,6 +87,15 @@ My content section is: collection My layout is: single-series part 2! does this 
     </item>
     
     <item>
+      <title>Demographic mechansims of persistence for the rare monocarpic perennial *Oenothera coloradensis*</title>
+      <link>https://aestears.github.io/project/cobp/</link>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/project/cobp/</guid>
+      <description>The persistence of naturally rare species has long been a motivating question for ecologists. Classical theory implies that community dynamics should be driven by common species, and that natural selection should not allow small populations of rare species to persist over long periods. And yet, a majority of the species found on earth are rare. Rare species contribute to diversity, community stability, and ecosystem function, and several mechanisms have been proposed to explain their persistence.</description>
+    </item>
+    
+    <item>
       <title>Trait-mediated demographic response to drought in the Colorado shortgrass steppe</title>
       <link>https://aestears.github.io/project/co-traits/</link>
       <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
@@ -141,15 +150,6 @@ plantTracker provides several user-friendly functions that extract growth, survi
       
       <guid>https://aestears.github.io/talk/seedling/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Demographic mechansims of persistence for the rare monocarpic perennial *Oenothera coloradensis*</title>
-      <link>https://aestears.github.io/project/cobp/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://aestears.github.io/project/cobp/</guid>
-      <description>Demographic mechansims of persistence for the rare monocarpic perennial Oenothera coloradensis The persistence of naturally rare species has long been a motivating question for ecologists. Classical theory implies that community dynamics should be driven by common species, and that natural selection should not allow small populations of rare species to persist over long periods. And yet, a majority of the species found on earth are rare. Rare species contribute to diversity, community stability, and ecosystem function, and several mechanisms have been proposed to explain their persistence.</description>
     </item>
     
     <item>

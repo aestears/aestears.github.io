@@ -17,14 +17,5 @@
 plantTracker provides several user-friendly functions that extract growth, survival, and competition information from repeatedly-sampled, fine-scale maps of organism occurence. We created these functions specifically to get competition and demographic data from repeatedly-mapped quadrats of perennial plants, but are excited for folks to come up with all sorts of creative applications for these functions!</description>
     </item>
     
-    <item>
-      <title>Demographic mechansims of persistence for the rare monocarpic perennial *Oenothera coloradensis*</title>
-      <link>https://aestears.github.io/project/cobp/</link>
-      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://aestears.github.io/project/cobp/</guid>
-      <description>Demographic mechansims of persistence for the rare monocarpic perennial Oenothera coloradensis The persistence of naturally rare species has long been a motivating question for ecologists. Classical theory implies that community dynamics should be driven by common species, and that natural selection should not allow small populations of rare species to persist over long periods. And yet, a majority of the species found on earth are rare. Rare species contribute to diversity, community stability, and ecosystem function, and several mechanisms have been proposed to explain their persistence.</description>
-    </item>
-    
   </channel>
 </rss>
