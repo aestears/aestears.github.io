@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>plantTracker</title>
+      <link>https://aestears.github.io/package/planttracker/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/package/planttracker/</guid>
+      <description>Here you can find more information about the plantTracker R package, which provides user-friendly tools to translate repeatedy sampled maps of stationary organism occurrence into demographic and local neighborhood data for further analysis.</description>
+    </item>
+    
+    <item>
       <title>plantTracker: An R package to translate maps of plant occurrence into demographic data</title>
       <link>https://aestears.github.io/project/planttracker/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
