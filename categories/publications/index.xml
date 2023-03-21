@@ -6,7 +6,16 @@
     <description>Recent content in publications on Alice Stears </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>plantTracker: An R package to translate maps of plant occurrence into demographic data</title>
+      <link>https://aestears.github.io/project/planttracker/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/project/planttracker/</guid>
+      <description>Long-term demographic data are rare yet invaluable for conservation, management, and basic research on the underlying mechanisms of population and community dynamics. Historical and contemporary mapped datasets of plant location and basal area present a relatively untapped source of demographic records that, in some cases, span over 20 years of sequential data collection. However, these maps do not uniquely mark individual plants, making the process of collecting growth, survival, and recruitment data difficult.</description>
+    </item>
+    
     <item>
       <title>Demographic mechansims of persistence for the rare monocarpic perennial *Oenothera coloradensis*</title>
       <link>https://aestears.github.io/project/cobp/</link>
