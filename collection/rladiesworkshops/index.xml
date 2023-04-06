@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UWyo R-Ladies Workshops on Alice Stears </title>
+    <link>https://aestears.github.io/collection/rladiesworkshops/</link>
+    <description>Recent content in UWyo R-Ladies Workshops on Alice Stears </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/collection/rladiesworkshops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using git, GitHub, and R Studio</title>
+      <link>https://aestears.github.io/collection/rladiesworkshops/01-github/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/collection/rladiesworkshops/01-github/</guid>
+      <description>Pre-Workshop To-Do We&amp;rsquo;re so excited to talk and learn about git, GitHub and R Studio with you on April 14th! In order to streamline the interactive part of the workshop, here are a few tasks you should complete before our meeting. I bet many of you have already completed at least a few of them, so it shouldn&amp;rsquo;t take long to finish the list! 1. Download R and R Studio I imagine most folks have already completed this step, but just in case you haven&amp;rsquo;t, download both programs at these links:</description>
+    </item>
+    
+  </channel>
+</rss>
