@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Wed, 05 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aestears.github.io/collection/rladiesworkshops/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Basics of R Package Development</title>
+      <link>https://aestears.github.io/collection/rladiesworkshops/02-packagedev/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aestears.github.io/collection/rladiesworkshops/02-packagedev/</guid>
+      <description> Workshop Slides for Part 1 are Here </description>
+    </item>
+    
+    <item>
       <title>Using git, GitHub, and R Studio</title>
       <link>https://aestears.github.io/collection/rladiesworkshops/01-github/</link>
       <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
