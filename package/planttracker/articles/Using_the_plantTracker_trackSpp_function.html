@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Using the `plantTracker` `trackSpp()` function">
 <meta property="og:description" content="plantTracker">
+<meta property="og:image" content="http://www.astearsresearch.com/package/plantTracker/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -26,7 +27,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">plantTracker</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +70,7 @@
 
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
-      <img src="" class="logo" alt=""><h1>Using the `plantTracker` `trackSpp()` function</h1>
+      <img src="../logo.png" class="logo" alt=""><h1>Using the `plantTracker` `trackSpp()` function</h1>
             
             <h4 data-toc-skip class="date">17 February 2022</h4>
       
@@ -109,37 +110,29 @@ explained in detail in <a href="Suggested_plantTracker_Workflow.html">Suggested
 as the “help” file for this function (which you can access by typing
 <code><a href="../reference/trackSpp.html">?trackSpp</a></code> in the R console). However, I’ll include a short
 description of the arguments here:</p>
-<table style="width:96%;" class="table">
+<table style="width:98%;" class="table">
 <colgroup>
 <col width="18%">
-<col width="48%">
+<col width="50%">
 <col width="12%">
-<col width="11%">
-<col width="5%">
+<col width="16%">
 </colgroup>
+<thead><tr class="header">
+<th>
+<code><a href="../reference/trackSpp.html">trackSpp()</a></code> argument</th>
+<th>description</th>
+<th>required?</th>
+<th>default?</th>
+</tr></thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">
-<code><a href="../reference/trackSpp.html">trackSpp()</a></code> argument ============== dat</td>
-<td rowspan="2">
-<p>description</p>
-<p>====================================== An sf data frame in which each
-row has spatial data for an individual observation in one year.</p>
-</td>
-<td rowspan="2">
-<p>required?</p>
-<p>========= Yes</p>
-</td>
-<td rowspan="2">
-<p>default?</p>
-<p>======== N/A</p>
-</td>
-<td></td>
+<td>dat</td>
+<td>An sf data frame in which each row has spatial data for an
+individual observation in one year.</td>
+<td>Yes</td>
+<td>N/A</td>
 </tr>
 <tr class="even">
-<td></td>
-</tr>
-<tr class="odd">
 <td>inv</td>
 <td>A named list in which the name of each element of the list is a
 quadrat name in <code>dat</code>, and the contents of that list element
@@ -148,9 +141,8 @@ actually sampled (not just the years that have data in
 <code>dat</code>!)</td>
 <td>Yes</td>
 <td>N/A</td>
-<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>dorm</td>
 <td>A single value greater than or equal to 0 indicating the number of
 years these species are allowed to go dormant. <strong>OR</strong> a
@@ -159,9 +151,8 @@ names in the “Species” column and a dormancy value in the “dorm”
 column.</td>
 <td>Yes</td>
 <td>N/A</td>
-<td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>buff</td>
 <td>A single value greater than or equal equal to zero, indicating how
 far a far a polygon can move from year <code>i</code> to year
@@ -171,9 +162,8 @@ far a far a polygon can move from year <code>i</code> to year
 <code>buff</code> value in the “buff” column.</td>
 <td>Yes</td>
 <td>N/A</td>
-<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>clonal</td>
 <td>A logical value (TRUE or FALSE) indicating whether a species is
 allowed to be clonal or not. <strong>OR</strong> a data frame with a row
@@ -181,9 +171,8 @@ for each species in <code>dat</code>, species names in the “Species”
 column, and a <code>clonal</code> value in the “clonal” column.</td>
 <td>Yes</td>
 <td>N/A</td>
-<td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>buffGenet</td>
 <td>A single value greater than or equal to zero indicating how close
 polygons must be to one another in the same year to be grouped as a
@@ -193,9 +182,8 @@ genet. <strong>OR</strong> a data frame with a row for each species in
 <td>only if <code>clonal</code> <code>= TRUE</code>
 </td>
 <td>N/A</td>
-<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>species/ site/ quad/ year/ geometry</td>
 <td>Five separate arguments, each a character string that indicates the
 name of the column in <code>dat</code> that contains data for each of
@@ -203,42 +191,39 @@ these required data types. No value is required if the column name is
 the same as the default. If only one column names is different than the
 default, then you only need to supply a value for that argument.</td>
 <td>No</td>
-<td colspan="2">“Species”| /“Site”| /“Quad”| /“Year”| /“geometry” | | |
-| |</td>
+<td>“Species” /“Site” /“Quad” /“Year” /“geometry”</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>aggByGenet</td>
 <td>A logical argument (TRUE or FALSE) that determines whether the
 output will be aggregated by genet.</td>
 <td>No</td>
 <td>TRUE</td>
-<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>printMessages</td>
 <td>A logical argument (TRUE or FALSE) that determines if the function
 returns informative messages.</td>
 <td>No</td>
 <td>TRUE</td>
-<td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>flagSuspects</td>
 <td>A logical argument (TRUE or FALSE) that indicates whether “suspect”
 individuals will be flagged.</td>
 <td>No</td>
 <td>FALSE</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>shrink</td>
-<td colspan="4">A numeric value. When two consecutive| No | 0.10 |
-observations have the same trackID, | | | and the ratio of size_t+1 to
-size_t | | | is smaller than the value of | | | <code>shrink</code>, the
-observation in year_t | | | gets a <code>TRUE</code> in the “Suspect”
-column.| | |</td>
 </tr>
 <tr class="odd">
+<td>shrink</td>
+<td>A numeric value. When two consecutive observations have the same
+trackID, and the ratio of size_t+1 to size_t is smaller than the value
+of <code>shrink</code>, the observation in year_t gets a
+<code>TRUE</code> in the “Suspect” column.</td>
+<td>No</td>
+<td>0.10</td>
+</tr>
+<tr class="even">
 <td>dormSize</td>
 <td>A numeric value. An individual is flagged as “suspect” if it “goes
 dormant” and has a size that is less than or equal to the percentile of
@@ -247,7 +232,6 @@ the size distribution for this species that is designated by
 </td>
 <td>No</td>
 <td>0.05</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -283,7 +267,10 @@ using:</p>
 <p>Here are the maps for one quadrat in <code>dat</code> over the first
 several years of sampling:</p>
 <pre><code><span><span class="co">#&gt; Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.</span></span>
-<span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Please use `linewidth` instead.</span></span></code></pre>
+<span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Please use `linewidth` instead.</span></span>
+<span><span class="co">#&gt; <span style="color: #555555;">This warning is displayed once every 8 hours.</span></span></span>
+<span><span class="co">#&gt; <span style="color: #555555;">Call `lifecycle::last_lifecycle_warnings()` to see where this warning was</span></span></span>
+<span><span class="co">#&gt; <span style="color: #555555;">generated.</span></span></span></code></pre>
 <div class="figure" style="text-align: center">
 <img src="Using_the_plantTracker_trackSpp_function_files/figure-html/unnamed-chunk-3-1.png" alt="**Figure 1.1**: *Spatial map of a subset of example `dat` data set*" width="720"><p class="caption">
 <strong>Figure 1.1</strong>: <em>Spatial map of a subset of example
@@ -459,33 +446,28 @@ survival.</p>
 <col width="77%">
 <col width="22%">
 </colgroup>
+<thead><tr class="header">
+<th>If a gap between <code>inv[i]</code> and <code>inv[i-1]</code>
+is…</th>
+<th></th>
+</tr></thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">
-<h2 id="if-a-gap-between-invi-and-invi-1-is">If a gap
-between <code>inv[i]</code> and <code>inv[i-1]</code> is…</h2>
-<p>… greater than the <code>dorm</code> value + 1 (e.g. if
+<td>… greater than the <code>dorm</code> value + 1 (e.g. if
 <code>dorm = 1</code>, inv[i] = 1923, and inv[i-1] = 1920; 1923 - 1920
 &gt; (1+1)), then we don’t know if the observations in
 <code>tempPreviousYear</code> survived or grew. They get an “NA” in the
-“size_tplus1” and “survives_tplus1” columns ……….</p>
-</td>
-<td rowspan="2">
-<pre><code>     |</code></pre>
-<p>=========+ Go to | step | <a href="#id_3_4_11">3.4.11</a> |
-|</p>
+“size_tplus1” and “survives_tplus1” columns ……….</td>
+<td>Go to step <a href="#id_3_4_11">3.4.11</a>
 </td>
 </tr>
-<tr class="even"></tr>
-<tr class="odd">
+<tr class="even">
 <td>… less than or equal to the <code>dorm</code> value + 1 (e.g. if
 <code>dorm = 1</code>, inv[i] = 1923, and inv[i-1] = 1921; 1923 - 1921 =
 (1+1)), then we can compare the data from year inv[i-1]
 (<code>tempPreviousYear</code>) to data from year inv[i]
 (<code>tempCurrentYear</code>) ……………………………….</td>
-<td>
-<pre><code>     |</code></pre>
-<p>Proceed | to step | <a href="#id_3_4_2">3.4.2</a>| |</p>
+<td>Proceed to step <a href="#id_3_4_2">3.4.2</a>
 </td>
 </tr>
 </tbody>
@@ -518,21 +500,19 @@ possible that there weren’t actually any plants there that year.</p>
 <col width="76%">
 <col width="23%">
 </colgroup>
+<thead><tr class="header">
+<th>If there …</th>
+<th></th>
+</tr></thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">
-<h2 id="if-there">If there …</h2>
-<p>… is data in <code>tempPreviousYear</code>………….</p>
-</td>
-<td rowspan="2">
-<pre><code>      |</code></pre>
-<p>==========+ Proceed | to step | <a href="#id_3_4_4">3.4.4</a>|</p>
+<td>… is data in <code>tempPreviousYear</code>………….</td>
+<td>Proceed to step <a href="#id_3_4_4">3.4.4</a>
 </td>
 </tr>
-<tr class="even"></tr>
-<tr class="odd">
+<tr class="even">
 <td>… is <em>not</em> data in <code>tempPreviousYear</code>……</td>
-<td>Go to | step | <a href="#id_3_4_12">3.4.12</a>
+<td>Go to step <a href="#id_3_4_12">3.4.12</a>
 </td>
 </tr>
 </tbody>
@@ -655,33 +635,28 @@ determine if there is any overlap between polygons in the the previous
 year (<code>inv[i-1]</code>, stored in<code>tempPreviousYear</code>) and
 the current year (<code>inv[i]</code>, stored in
 <code>tempCurrentYear</code>).</p>
-<table style="width:99%;" class="table">
+<table class="table">
 <colgroup>
 <col width="64%">
-<col width="30%">
-<col width="4%">
+<col width="35%">
 </colgroup>
+<thead><tr class="header">
+<th>If there …</th>
+<th></th>
+</tr></thead>
 <tbody>
 <tr class="odd">
-<td rowspan="2">
-<h2 id="if-there-1">If there …</h2>
-<p>… is overlap between <code>tempPreviousYear</code> and
-<code>tempCurrentYear</code>………………</p>
+<td>… is overlap between <code>tempPreviousYear</code> and
+<code>tempCurrentYear</code>………………</td>
+<td>Proceed to step <a href="#id_3_4_8">3.4.8</a>
 </td>
-<td rowspan="2">====================== Proceed to step <a href="#id_3_4_8">3.4.8</a>
-</td>
-<td></td>
 </tr>
 <tr class="even">
-<td></td>
-</tr>
-<tr class="odd">
 <td>… is <em>not</em> overlap between <code>tempPreviousYear</code> and
 <code>tempCurrentYear</code>…</td>
-<td colspan="2">Take the | <code>tempPreviousYear</code> | data frame to
-step | <a href="#id_3_4_6">3.4.6</a>.Take the
-<code>tempCurrentYear</code> | data frame to step | <a href="#id_3_4_12">3.4.12</a>, but| first assign them a | “1” in the
-“recruit” | column and a “1” in | the “age” column. |</td>
+<td>Take the <code>tempPreviousYear</code> data frame to step <a href="#id_3_4_6">3.4.6</a>.Take the <code>tempCurrentYear</code> data
+frame to step <a href="#id_3_4_12">3.4.12</a>, but first assign them a
+“1” in the “recruit” column and a “1” in the “age” column.</td>
 </tr>
 </tbody>
 </table>
